@@ -1,0 +1,27 @@
+---
+const currentYear = new Date().getFullYear()
+---
+
+<footer class="w-full bg-[#353535] mt-24">
+  <div class="w-full max-w-screen-2xl mx-auto px-4 md:flex md:items-center md:justify-between py-4">
+    <span class="text-sm sm:text-center text-zinc-800/90 dark:text-zinc-200/90">
+      © {currentYear} Wizack. Todos los derechos reservados
+    </span>
+
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium dark:text-white/90 sm:mt-0">
+      <li>
+        <a href="/#fullstack" class="hover:underline me-4 md:me-6">Full-Stack</a>
+      </li>
+
+      <li>
+        <a href="/#frontend" class="hover:underline me-4 md:me-6">FrontEnd</a>
+      </li>
+
+      <li>
+        <a id="contacto" href="mailto:marcosjgodoyb@gmail.com" class="hover:underline">
+          Contacto
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
